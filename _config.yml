@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -15,8 +15,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      title: "Helloworld"
-      permalink: "_posts/2019-01-29-hello-world.md"
+
 
 projects:
   sort_by: pushed
@@ -54,6 +53,7 @@ topics:
   #   # image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
   - name: Backend
   - name: Scalability
+  - name: System Design
   
 
 repository: impiyush83/personal-website
