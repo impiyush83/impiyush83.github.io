@@ -1,3 +1,79 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html>
+<head>
+
+<br>
+<br>
+  <title>Piyush Nalawade</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand active" href="/">Piyush Nalawade</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="/static/docs/Piyush_Nalawade_US.pdf" target="_blank">CV</a></li>
+          <li><a target="_blank" href="http://github.com/impiyush83">Github</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="about"></div>
+    <div id="news"></div>
+    <div id="experience"></div>
+    <div id="education"></div>
+  </div>
+  <br>
+  <div class="panel">
+    <div class="panel-footer">Piyush Nalawade, 2021</div>
+  </div>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $("#about").load("templates/about.html"); 
+      $("#news").load("templates/news.html"); 
+      $("#experience").load("templates/experience.html"); 
+      $("#skills").load("templates/skills.html"); 
+      $("#education").load("templates/education.html"); 
+      $("#achievements").load("templates/achievements.html"); 
+      $("#contact").load("templates/contact.html"); 
+    });
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53104159-7', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</html>
